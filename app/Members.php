@@ -9,8 +9,8 @@ class Members extends Model
     //
     protected $table = 'smf_members';
 
-    public function groups()
+    public function memGroups()
     {
-        return $this->hasOne('App\Groups','id_group','id_group')->select('id','posts','group_name');
+        return $this->hasOne('App\Groups','id_group','id_group');
     }
 }

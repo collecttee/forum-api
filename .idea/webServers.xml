@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d3b3ddbb-1907-40e4-990b-56cd1f83db93" name="新加坡2">
+        <fileTransfer rootFolder="/data/forumapi/sites/apitest" accessType="SFTP" host="8.219.49.191" port="22" sshConfigId="33d8cc1d-3851-4b37-9b75-df67386ccdb0" sshConfig="root@8.219.49.191:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
